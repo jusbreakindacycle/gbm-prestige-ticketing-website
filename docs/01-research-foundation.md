@@ -112,7 +112,7 @@ To design and develop a static, zero-budget public business website for Homeland
 4. To provide clickable/tappable contact options for phone, Messenger, Viber, WhatsApp, and Telegram on every relevant page.
 5. To build a mobile-responsive layout, since most inquiry traffic likely comes from phones. **[Assumption — reasonable given Messenger/Viber/WhatsApp reliance, but not confirmed with analytics]**
 6. To keep the codebase simple (plain HTML/CSS/JS, no framework, no backend) so it can run on free static hosting.
-7. To structure the code and folders in a way that allows Version 2 features (booking system, database, admin dashboard) to be added later without a full rebuild.
+7. To structure the code and folders in a way that allows v2 features (booking system, database, admin dashboard) to be added later without a full rebuild.
 
 ---
 
@@ -154,7 +154,7 @@ All actual transactions remain manual, continuing through phone, Messenger, Vibe
 - **Accessibility:** The business becomes visible to people who search generally online, not just existing Facebook followers.
 - **Low risk, low cost:** Zero hosting budget needed; no new technical liability (no database or payment system to secure or maintain).
 - **Portfolio value:** As a real, client-usable static site, this also serves as a demonstrable project for professional/freelance presentation purposes.
-- **Future-ready foundation:** Clean, simple code structure makes it easier to extend into Version 2 later.
+- **Future-ready foundation:** Clean, simple code structure makes it easier to extend into v2 later.
 
 ---
 
@@ -172,7 +172,7 @@ Consolidated list of all assumptions used in this document (none are treated as 
 
 ## 14. Future Enhancements (Beyond v1)
 
-Potential Version 2+ features, **not being built now**, but worth keeping in mind for folder/code structure decisions:
+Potential v2+ features, **not being built now**, but worth keeping in mind for folder/code structure decisions:
 
 - Online booking request form (still human-processed, not automated)
 - Admin dashboard for managing inquiries or content updates

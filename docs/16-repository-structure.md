@@ -1,16 +1,17 @@
-# Homeland Travel and Tours – GBM Prestige Ticketing Website
+# Deliverable 16: Repository Structure
 
-Official static business website for Homeland Travel and Tours – GBM Prestige Ticketing.
+## Homeland Travel and Tours – GBM Prestige Ticketing Website (v1)
 
-This project is a zero-budget, inquiry-focused website built with plain HTML, CSS, and JavaScript for GitHub Pages.
+This document defines the approved repository structure for the static website implementation phase.
 
-## Project Overview
+## 1. Project Scope
 
-The website presents the business, explains the “8-in-1 Ticketing System” as a marketing slogan, highlights the service categories, and directs visitors to existing inquiry channels such as phone, Messenger, Viber, WhatsApp, and Telegram.
+- Static business website
+- Plain HTML, CSS, and JavaScript only
+- GitHub Pages deployment
+- No backend, database, API, booking system, payment system, or admin app in v1
 
-The scope of v1 is informational only. It does not include booking, payments, databases, APIs, customer accounts, or admin tools.
-
-## Repository Structure
+## 2. Approved Repository Structure
 
 ```text
 gbm-prestige-ticketing-website/
@@ -64,28 +65,18 @@ gbm-prestige-ticketing-website/
 └── README.md
 ```
 
-## Documentation
+## 3. Folder Responsibilities
 
-The repository documentation is the source of truth for implementation planning.
+- .cursor/ and .cursorrules: project rules for Cursor and AI-assisted editing.
+- docs/: planning and reference documents for the approved website scope.
+- prompts/: reusable implementation guidance for the repository.
+- public/: static assets such as images, icons, and favicon files.
+- src/css/: stylesheet files split by responsibility.
+- src/js/: lightweight JavaScript for progressive enhancement only.
+- src/pages/: secondary HTML pages for the informational website.
 
-- Research foundation: docs/01-research-foundation.md
-- Business analysis: docs/02-business-analysis.md
-- Requirements: docs/03-system-requirements-specification.md
-- Database decision: docs/09-database-design-erd-decision.md
-- Repository structure: docs/16-repository-structure.md
+## 4. Implementation Notes
 
-## Development Notes
-
-- Plain HTML, CSS, and JavaScript only
-- GitHub Pages target
-- No backend, database, API, booking system, payment system, or admin app in v1
-
-## Deployment
-
-The target deployment platform is GitHub Pages.
-
-## License
-
-This project uses the MIT License for source code.
-
-Business names, logos, images, brand materials, and business-specific content belong to Homeland Travel and Tours – GBM Prestige Ticketing and are not covered by the MIT License unless explicitly stated.
+- The homepage and 404 page remain at the repository root.
+- The website is informational only, so no backend, database, or API folders are part of v1.
+- The database decision document is stored as docs/09-database-design-erd-decision.md for clarity and consistency.

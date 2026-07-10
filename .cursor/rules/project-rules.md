@@ -19,3 +19,22 @@ This is a static, informational, inquiry-focused business website based on the a
 
 4. Business purpose:
 The website must present the business, explain the "8-in-1 Ticketing System" as a marketing slogan, showcase the eight services, and direct visitors to existing contact channels.
+
+5. Strict project rules:
+- No backend
+- No database
+- No API
+- No booking system
+- No payment system
+- No login or registration
+- No admin dashboard
+- No customer portal
+- No real-time availability
+- No forms collecting personal data
+- Plain HTML, CSS, and JavaScript only
+- GitHub Pages target
+
+6. Implementation guidance:
+- Use the approved documentation in the docs folder as the source of truth.
+- Keep the implementation simple, beginner-friendly, and mobile-friendly.
+- Do not invent business claims, prices, schedules, or guarantees.
