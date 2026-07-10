@@ -4,6 +4,10 @@ Official static business website for Homeland Travel and Tours – GBM Prestige 
 
 This project is a zero-budget, inquiry-focused website built with plain HTML, CSS, and JavaScript for GitHub Pages.
 
+## Live Demo
+
+https://jusbreakindacycle.github.io/gbm-prestige-ticketing-website/
+
 ## Project Overview
 
 The website presents the business, explains the “8-in-1 Ticketing System” as a marketing slogan, highlights the service categories, and directs visitors to existing inquiry channels such as phone, Messenger, Viber, WhatsApp, and Telegram.
