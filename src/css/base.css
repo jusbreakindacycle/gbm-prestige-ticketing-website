@@ -1,0 +1,41 @@
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border-radius: var(--radius-md);
+}
+
+p {
+  color: var(--color-muted);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  color: var(--color-navy);
+}
+
+strong {
+  color: var(--color-emerald);
+}
+
+.eyebrow {
+  display: inline-block;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-emerald);
+  margin-bottom: var(--space-2);
+}
