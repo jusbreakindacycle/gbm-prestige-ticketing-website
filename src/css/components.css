@@ -5,6 +5,11 @@
   margin-top: 0.75rem;
 }
 
+.page-hero-copy {
+  display: grid;
+  gap: 1rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
